@@ -1,0 +1,36 @@
+{ 
+  "manifest_version": 2,
+
+  "name": "NXCO", 
+  "version": "0.1.0", 
+  "description": "Bypass Meownime Flashtik URL",
+
+  "browser_action": { 
+      "name": "NXCO - URLB64D", 
+      "default_icon": "images/nxco.svg",
+      "default_popup": "popup.html"
+  }, 
+
+  "web_accessible_resources": [
+    "images/*.png",
+    "style/double-rainbow.css",
+    "script/double-rainbow.js",
+    "script/main.js",
+    "templates/*"
+  ],
+
+  "background": {
+    "scripts": ["js/jquery.min.js","js/nxco.js"],
+    "persistent": false
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://meownime.moe/*"],
+      "css": ["css/nxco.css"],
+      "js": ["js/jquery.min.js", "js/nxco.js"]
+    }
+  ],
+
+  "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"]
+}   

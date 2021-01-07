@@ -13,10 +13,6 @@
 
   "web_accessible_resources": [
     "images/*.png",
-    "style/double-rainbow.css",
-    "script/double-rainbow.js",
-    "script/main.js",
-    "templates/*"
   ],
 
   "background": {

@@ -1,6 +1,7 @@
-# meowplestik
-Meownime Flashtik URL Bypass, skip flashtik.
-Chrome Extension based.
+# meow meow dot moe
+Meownime shorturl URL Bypass, skip flashtik or mysison.
+
+Chrome Extension are javascript based.
 
 go to : chrome://extensions
-then, load unpacked -> meowplestik directory.
+then, load unpacked -> meowbpass directory.
